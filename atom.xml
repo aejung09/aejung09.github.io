@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-11T06:45:03.475Z</updated>
+  <updated>2021-09-13T14:13:49.082Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>애정 첫 블로그 게시</title>
+    <link href="http://example.com/2021/09/13/hexo-blog-post/"/>
+    <id>http://example.com/2021/09/13/hexo-blog-post/</id>
+    <published>2021-09-13T14:05:59.000Z</published>
+    <updated>2021-09-13T14:13:49.082Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="글생성"><a href="#글생성" class="headerlink" title="글생성!?"></a>글생성!?</h2><p>Hexo 설치 완료 후 깃블로그 게시글 하나 쓰는겸! 연습용!</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post &#x27;hexo-blog-post&#x27;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;글생성&quot;&gt;&lt;a href=&quot;#글생성&quot; class=&quot;headerlink&quot; title=&quot;글생성!?&quot;&gt;&lt;/a&gt;글생성!?&lt;/h2&gt;&lt;p&gt;Hexo 설치 완료 후 깃블로그 게시글 하나 쓰는겸! 연습용!&lt;/p&gt;
+&lt;figure class=&quot;highligh</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
