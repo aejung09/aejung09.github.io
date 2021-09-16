@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-13T14:13:49.082Z</updated>
+  <updated>2021-09-16T16:44:30.692Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>x만큼 간격이 있는 n개의 숫자</title>
+    <link href="http://example.com/2021/09/17/hexo-blog-post-1/"/>
+    <id>http://example.com/2021/09/17/hexo-blog-post-1/</id>
+    <published>2021-09-16T15:56:02.000Z</published>
+    <updated>2021-09-16T16:44:30.692Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="x만큼-간격이-있는-n개의-숫자"><a href="#x만큼-간격이-있는-n개의-숫자" class="headerlink" title="x만큼 간격이 있는 n개의 숫자"></a>x만큼 간격이 있는 n개의 숫자</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">func solution(_ x:Int, _ n:Int) -&gt; [Int64] &#123;</span><br><span class="line">    return []</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>처음 시작하는 알고리즘문제이다.<br>x와 n값을 받아서 Int64로 변환한 후 return 시켜주는 방식이다.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">func solution(_ x:Int, _ n:Int) -&gt; [Int64] &#123;</span><br><span class="line">    return Array(1...n).map &#123; Int64($0 * x) &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Array(1…n)으로 1부터 n만큼 담고있는 배열을 만들고 map으로 1부터 n까지 x를 곱한걸 나누어서 넣어준다는 코드가 있었다.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;x만큼-간격이-있는-n개의-숫자&quot;&gt;&lt;a href=&quot;#x만큼-간격이-있는-n개의-숫자&quot; class=&quot;headerlink&quot; title=&quot;x만큼 간격이 있는 n개의 숫자&quot;&gt;&lt;/a&gt;x만큼 간격이 있는 n개의 숫자&lt;/h4&gt;&lt;figure class</summary>
+      
+    
+    
+    
+    
+    <category term="코딩테스트" scheme="http://example.com/tags/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>애정 첫 블로그 게시</title>
