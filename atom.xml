@@ -6,15 +6,35 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-16T16:44:30.692Z</updated>
+  <updated>2021-09-17T13:19:18.646Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Aejung</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>핸드폰 번호 가리기</title>
+    <link href="http://example.com/2021/09/17/PhoneNum/"/>
+    <id>http://example.com/2021/09/17/PhoneNum/</id>
+    <published>2021-09-17T13:03:28.000Z</published>
+    <updated>2021-09-17T13:19:18.646Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="핸드폰-번호-가리기"><a href="#핸드폰-번호-가리기" class="headerlink" title="핸드폰 번호 가리기"></a>핸드폰 번호 가리기</h4><p>프로그래머스에 나와있는 핸드폰 번호 가리기 !<br>나는 문자열을 잘라서 맨 마지막 4글자만 놔두고 앞에 글자만 *로 변경하려했었다.<br>근데 다른 사람들 문제 풀이를 보니 for문이나 바로 return 시켜서 넘기는 방식을 썼다.</p><p><strong>이건 for문을 이용한 문제풀이</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">func solution(_ phone_number:String) -&gt; String &#123;</span><br><span class="line">    var answer = String()</span><br><span class="line">    for _ in 0..&lt;phone_number.count-4&#123;</span><br><span class="line">        answer += &quot;*&quot;</span><br><span class="line">    &#125;</span><br><span class="line">    answer += phone_number.suffix(4)</span><br><span class="line">    return answer</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p><strong>이건 그냥 return을 하면서 repeating을 해주는것</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">func solution(_ phone_number:String) -&gt; String &#123;</span><br><span class="line">    return String(&quot;\(String(repeating: &quot;*&quot;, count: phone_number.count - 4))\(phone_number.suffix(4))&quot;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>간단하게 return을 할때 어떤걸 반복할거고 몇번을 반복할거냐라는거다.<br>그래서 <code>* 를 받은 인자의 값의 카운를 세고 suffix를 통해 뒤에서 4번째까지만 빼고 *</code> 를 변환해주는방법이다.</p><p>하나하나 풀어갈수록 배워가는 재미가 쏠쏠하당 ~ !</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;핸드폰-번호-가리기&quot;&gt;&lt;a href=&quot;#핸드폰-번호-가리기&quot; class=&quot;headerlink&quot; title=&quot;핸드폰 번호 가리기&quot;&gt;&lt;/a&gt;핸드폰 번호 가리기&lt;/h4&gt;&lt;p&gt;프로그래머스에 나와있는 핸드폰 번호 가리기 !&lt;br&gt;나는 문자열을 잘</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>x만큼 간격이 있는 n개의 숫자</title>
