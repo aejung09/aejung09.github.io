@@ -42,7 +42,7 @@ h6 {
 
 ::selection {
   color: #fff;
-  background-color: #9e1900;
+  background-color: #E1CFFF;
 }
 
 .nav-list {
@@ -57,7 +57,7 @@ h6 {
 }
 
 .nav-list-link:hover {
-  border-bottom: .2em solid #9e1900;
+  border-bottom: .2em solid #E1CFFF;
   padding-bottom: .15em;
   transition: 150ms ease-in-out;
 }
@@ -185,7 +185,7 @@ header .nav-list-item a {
 }
 
 .home.post-list .read-more {
-  color: #9e1900;
+  color: #E1CFFF;
 }
 
 .archive .post-item {
@@ -198,12 +198,12 @@ header .nav-list-item a {
   font-size: 1rem;
 }
 .archive .post-title-link {
-  color: #9e1900;
+  color: #E1CFFF;
   padding-left: 1em;
 }
 .archive .post-title-link:hover {
   border-bottom: 0;
-  color: #801501;
+  color: #D1B6FF;
 }
 .archive .post-info {
   width: 6em;
@@ -294,14 +294,14 @@ header .nav-list-item a {
 }
 
 .post-content a {
-  color: #9e1900;
+  color: #E1CFFF;
 }
 .post-content blockquote {
   margin: 2em 0;
   padding: .5em 1.3em;
   border: .05em solid #eee;
   border-radius: .1em;
-  border-left-color: #9e1900;
+  border-left-color: #E1CFFF;
   border-left-width: .1em;
 }
 
@@ -370,18 +370,18 @@ header .nav-list-item a {
 .paginator .prev,
 .paginator .next {
   position: relative;
-  box-shadow: 0 .3em #801501;
+  box-shadow: 0 .3em #E1CFFF;
   display: inline-block;
   margin: 0 .2em;
   padding: .3em 1.5em;
   border-radius: 5px;
   color: #fff;
-  background-color: #9e1900;
+  background-color: #E1CFFF;
   font-weight: 600;
 }
 .paginator .prev:hover,
 .paginator .next:hover {
-  box-shadow: 0 .2em #801501;
+  box-shadow: 0 .2em #E1CFFF;
   top: .1em;
 }
 
@@ -607,12 +607,12 @@ pre .tag .attr {
 }
 pre .string,
 pre .doctag {
-  color: #d14;
+  color: rgb(213, 142, 255);
 }
 pre .title,
 pre .section,
 pre .selector-id {
-  color: #900;
+  color: rgb(204, 148, 250);
   font-weight: 600;
 }
 pre .subst {
